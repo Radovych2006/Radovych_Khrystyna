@@ -1,0 +1,13 @@
+#Simple C++ Program to Greet the User
+#include <iostream>
+#include <string>
+void greetUser() {
+    std::string name;
+    std::cout << "What's your name? ";
+    std::getline(std::cin, name);
+}
+    std::cout << "Hello, " << name << "! Welcome!" << std::endl;
+    int main() {
+        greetUser();
+        return 0;
+    }
